@@ -1,0 +1,74 @@
+
+
+/* Mobile First -------------------------------- */
+
+
+/* Basic ---------------------------- */
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: 0;
+}
+
+li, a, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+img{
+  
+}
+
+body {
+   
+}
+
+/* Layout --------------------------------- */
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-bar__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar__links li a {
+    transition: all 0.3 ease 0s;
+}
+
+
+
+/* Block -------------------------------------- */
+
+
+
+/* Project Section Cards */
+
+
+
+
+/* Desktop Styles ------------------------------ */
+@media(min-width: 550px){
+    .title{
+        font-size: 20px;
+
+    }
+    .bio__profile-pic{
+        width: 30%;
+    }
+    .photo-card-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .project-gallery__card{
+        width: 20%;
+    }
+}
